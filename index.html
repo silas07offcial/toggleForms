@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <title>Toggle Login SignUp</title>
+  </head>
+<body>
+  <div class="hero">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="form-box">
+            <div class="button-box">
+              <div id="btn"></div>
+              <button type="button" class="toggle-button" onclick="login()">Login</button><button type="button" class="toggle-button" onclick="register()">Register</button>
+              
+          </div>
+            <div class="social-icons">
+              <ul class="social-media">
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+            </ul>
+            </div>
+            <form id="login" class="form-container">
+                <input type="text" class="form-control" placeholder="User ID" required>
+                <input type="password" class="form-control" placeholder="Password" required>
+                <input type="checkbox" class="check-box" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+              <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <form id="register" class="form-container">
+              <input type="text" class="form-control" placeholder="User ID" required>
+              <input type="email" class="form-control" placeholder="Email Address" required>
+              <input type="password" class="form-control" placeholder="Password" required>
+              <input type="checkbox" class="check-box" id="Check2">
+              <label class="form-check-label" for="Check2">Agree To Terms & Conditions</label>
+            <button type="submit" class="submit-btn">Register</button>
+          </form>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="./js/jquery.slim.min.js" ></script>
+    <script src="./js/popper.min.js" ></script>
+    <script src="./js/bootstrap.min.js" ></script>
+    <script src="./js/index.js" ></script>
+</body >
+</html>
